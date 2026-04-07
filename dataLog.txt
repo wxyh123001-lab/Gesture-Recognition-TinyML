@@ -1,0 +1,41 @@
+Resnet 07/04/26
+0s 443ms/step - accuracy: 0.8645 - loss: 0.4258 - precision: 0.9519 - recall: 0.7960WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+321s 504ms/step - accuracy: 0.9595 - loss: 0.1358 - precision: 0.9878 - recall: 0.9392 - val_accuracy: 0.8939 - val_loss: 0.5284 - val_precision: 0.9011 - val_recall: 0.8906 - learning_rate: 0.0010
+Epoch 2/40
+ 0s 457ms/step - accuracy: 0.9932 - loss: 0.0226 - precision: 0.9938 - recall: 0.9926WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+334s 524ms/step - accuracy: 0.9949 - loss: 0.0175 - precision: 0.9954 - recall: 0.9945 - val_accuracy: 0.9873 - val_loss: 0.1599 - val_precision: 0.9873 - val_recall: 0.9873 - learning_rate: 0.0010
+Epoch 3/40
+318s 512ms/step - accuracy: 0.9974 - loss: 0.0094 - precision: 0.9976 - recall: 0.9973 - val_accuracy: 0.9848 - val_loss: 0.1604 - val_precision: 0.9849 - val_recall: 0.9846 - learning_rate: 0.0010
+Epoch 4/40
+ 325s 523ms/step - accuracy: 0.9979 - loss: 0.0073 - precision: 0.9980 - recall: 0.9978 - val_accuracy: 0.9839 - val_loss: 0.1940 - val_precision: 0.9840 - val_recall: 0.9837 - learning_rate: 0.0010
+Epoch 5/40
+from training data val_loss bigger than loss. Therefore change dropout 0.5 to 0.6
+
+YOLO
+416s 669ms/step - accuracy: 1.0000 - loss: 3.7025e-05 - precision: 1.0000 - recall: 1.0000 - val_accuracy: 0.9873 - val_loss: 0.2286 - val_precision: 0.9875 - val_recall: 0.9873 - learning_rate: 2.5000e-04
+Epoch 14/40
+0s 638ms/step - accuracy: 0.9996 - loss: 7.4933e-04 - precision: 0.9996 - recall: 0.9996
+Epoch 14: ReduceLROnPlateau reducing learning rate to 0.0001250000059371814.
+ 463s 704ms/step - accuracy: 0.9998 - loss: 3.6847e-04 - precision: 0.9998 - recall: 0.9998 - val_accuracy: 0.9873 - val_loss: 0.2486 - val_precision: 0.9874 - val_recall: 0.9873 - learning_rate: 2.5000e-04
+Epoch 15/40
+422s 679ms/step - accuracy: 1.0000 - loss: 1.6030e-05 - precision: 1.0000 - recall: 1.0000 - val_accuracy: 0.9874 - val_loss: 0.2538 - val_precision: 0.9874 - val_recall: 0.9874 - learning_rate: 1.2500e-04
+Epoch 15: early stopping
+
+MobileViT
+ 0s 260ms/step - accuracy: 0.9995 - loss: 0.0017 - precision: 0.9996 - recall: 0.9995WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+ 193s 310ms/step - accuracy: 0.9997 - loss: 0.0010 - precision: 0.9997 - recall: 0.9997 - val_accuracy: 0.9857 - val_loss: 0.2263 - val_precision: 0.9857 - val_recall: 0.9857 - learning_rate: 5.0000e-04
+Epoch 13/40
+0s 260ms/step - accuracy: 0.9995 - loss: 0.0014 - precision: 0.9995 - recall: 0.9995WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+
+EfficientNetV2
+ 0s 134ms/step - accuracy: 1.0000 - loss: 3.7569e-04 - precision: 1.0000 - recall: 1.0000
+Epoch 13: ReduceLROnPlateau reducing learning rate to 6.25000029685907e-05.
+92s 149ms/step - accuracy: 1.0000 - loss: 1.6352e-04 - precision: 1.0000 - recall: 1.0000 - val_accuracy: 0.9859 - val_loss: 0.3165 - val_precision: 0.9859 - val_recall: 0.9859 - learning_rate: 1.2500e-04
+Epoch 14/40
+142s 148ms/step - accuracy: 1.0000 - loss: 9.2786e-05 - precision: 1.0000 - recall: 1.0000 - val_accuracy: 0.9855 - val_loss: 0.3157 - val_precision: 0.9855 - val_recall: 0.9855 - learning_rate: 6.2500e-05
+Epoch 14: early stopping
+
+ConvNeXt
+260s 410ms/step - accuracy: 0.9996 - loss: 0.0015 - precision: 0.9996 - recall: 0.9996 - val_accuracy: 0.9842 - val_loss: 0.2661 - val_precision: 0.9843 - val_recall: 0.9842 - learning_rate: 2.5000e-04
+Epoch 12/40
+ 0s 358ms/step - accuracy: 0.9999 - loss: 1.8122e-04 - precision: 0.9999 - recall: 0.9999WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
